@@ -21,6 +21,7 @@ node {
 	        }
         }
       	stage ('Deploy') {
+	    // Test
             sh "echo 'shell scripts to deploy to server...'"
       	}
     } catch (err) {
